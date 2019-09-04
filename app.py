@@ -5,8 +5,8 @@ Created on Wed Sep  4 22:51:42 2019
 @author: GS-1854
 """
 from flask import Flask
-from .data_generation import face_database
-from .detection_algorithm import facial_recognition
+from .Data_Generation import face_database
+from .Detection_Algorithm import facial_recognition
 
 app = Flask(__name__)
 
